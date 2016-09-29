@@ -28,11 +28,11 @@ text-align:center;
 padding-top: 15px;
 }
 
-}
+
 ul{
 
     list-style-position: outside;
-margin-left: 1em;
+margin-left: 0em;
 }
 .message{
 background-color:rgba(148, 53, 165, 0.42);

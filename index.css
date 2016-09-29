@@ -1,152 +1,155 @@
 .blue-line{
-	position:absolute;
-	top:1px;
-	width:4px;
-	height:80%;
-	background:#00bcce
+position:absolute;
+top:1px;
+width:4px;
+height:80%;
+background:#00bcce
 }
 .container-fluid .no-col{
-	margin-left:0px;
-	margin-right:0px;
+margin-left:0px;
+margin-right:0px;
 }
 .newsfeed{
 background-color:rgba(53, 165, 62, 0.42);
-	border-radius: 10px;
-	width:90%;
-	text-align:left;
-	padding:10px;
-	padding-left:20px;
-	margin-left: auto;
-    margin-right: auto;
-    margin-bottom:20px;
-    margin-top:20px;
+border-radius: 10px;
+width:90%;
+text-align:left;
+padding:10px 20px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom:20px;
+margin-top:20px;
 }
 .center-align{
-	text-align:center;
+text-align:center;
 }
-li{
-	 list-style-type: disc;
-    list-style-position: inside;
-    text-indent: -2em;
-    padding-left: 3em;
+#first{
+    padding-bottom: 15px;
+padding-top: 15px;
+}
+
+}
+ul{
+
+    list-style-position: outside;
+margin-left: 1em;
 }
 .message{
-	background-color:rgba(148, 53, 165, 0.42);
-	border-radius: 10px;
-	width:90%;
-	text-align:left;
-	padding:10px;
-	padding-left:20px;
-	margin-left: auto;
-    margin-right: auto;
+background-color:rgba(148, 53, 165, 0.42);
+border-radius: 10px;
+width:90%;
+text-align:left;
+padding:10px 20px;
+margin-left: auto;
+margin-right: auto;
 
 }
 .equal-height{
-	overflow: hidden; 
+overflow: hidden; 
 }
 .top-text{
-	color:#ffff00;
-	padding-bottom:20px;
+color:#ffff00;
+padding-bottom:20px;
 }
 .centered{
-	text-align:center;
+text-align:center;
 }
 
 .withBackground{
-	background-image: url("./index_files/Cincybackgroundsmall.JPG");
-	background-size: 100% 100%;
-	}
-	
+background-image: url("./index_files/Cincybackgroundsmall.JPG");
+background-size: 100% 100%;
+}
+
 @media (max-width:767px) {
 
 .inline{
 padding-bottom:10px;}
 }
 .with-light-blue{
-	padding-left: 40px;
-    padding-right: 40px;
+padding-left: 40px;
+padding-right: 40px;
 }
 
 @media (min-width: 550px) {
 .withBackground{
- 	background-image: url("./index_files/Cincybackground.JPG");
+	background-image: url("./index_files/Cincybackground.JPG");
 }}
 @media (min-width:768px){
-	.no-col{
-		    padding-left: 20px;
-	}
+.no-col{
+	    padding-left: 20px;
+}
 .inline{
-	display:inline-block;
-	margin-left:20px;
-	position: relative;
-    vertical-align: top;
-    margin-top: 30px;
+display:inline-block;
+margin-left:20px;
+position: relative;
+vertical-align: top;
+margin-top: 30px;
 }
 .flex-column{
-	display:inline-block;
-	width: calc(100% - 280px);
+display:inline-block;
+width: calc(100% - 280px);
 }
 .message{
-	display:inline-block;
-	width:45%;
-	margin-right:5px;
-	position: relative;
-    vertical-align: top;
-     margin-bottom: -99999px;
-  padding-bottom: 99999px;
+display:inline-block;
+width:45%;
+margin-right:5px;
+position: relative;
+vertical-align: top;
+ margin-bottom: -99999px;
+padding-bottom: 99999px;
 }
 .newsfeed{
-	display:inline-block;
-	width:45%;
-	margin-left:5px;
-	position: relative;
-    vertical-align: top;
-	 margin-bottom: -99999px;
-  padding-bottom: 99999px;
-    margin-top:0px;
+display:inline-block;
+width:45%;
+margin-left:5px;
+position: relative;
+vertical-align: top;
+ margin-bottom: -99999px;
+padding-bottom: 99999px;
+margin-top:0px;
 }
 
 #logo{
-	padding-top:20px;
+padding-top:20px;
 }
 
 .with-max-width{
-	max-width: 1000px;
-	margin-left:auto;
-	margin-right:auto;
-	padding-left:25px;
-	padding-right:25px;
+max-width: 1000px;
+margin-left:auto;
+margin-right:auto;
+padding-left:25px;
+padding-right:25px;
 }}
 .inline{
-	text-align:center;
+text-align:center;
 }
 
 .text-block{
-	padding-top:15px;
-	padding-bottom:15px;
+padding-top:15px;
+padding-bottom:15px;
 }
 html {
-  position: relative;
-  min-height: 100%;
+position: relative;
+min-height: 100%;
 }
 .body {
-  /* Margin bottom by footer height */
-  margin-bottom: 30px;
+/* Margin bottom by footer height */
+margin-bottom: 30px;
 }
 .footer {
-  position: absolute;
-  bottom: 5;
-  width: 100%;
-  background-color: #f5f5f5;
-  height: auto;
+position: absolute;
+bottom: 5;
+width: 100%;
+background-color: #f5f5f5;
+height: auto;
 }
 
 
 .top-margin{
-	padding-top:20px;
-	padding-bottom:20px;
+padding-top:20px;
+padding-bottom:20px;
 }
 .with-light-blue{
-	background-color: #54B9CB;
-	padding-top:0px;
+background-color: #54B9CB;
+padding-top:0px;
 }

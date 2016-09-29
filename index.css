@@ -11,7 +11,8 @@ background-color:rgba(53, 165, 62, 0.42);
 	width:90%;
 	text-align:left;
 	padding:10px;
-	    margin-left: auto;
+	padding-left:20px;
+	margin-left: auto;
     margin-right: auto;
     margin-bottom:20px;
     margin-top:20px;
@@ -23,7 +24,7 @@ li{
 	 list-style-type: disc;
     list-style-position: inside;
     text-indent: -2em;
-    padding-left: 2em;
+    padding-left: 3em;
 }
 .message{
 	background-color:rgba(148, 53, 165, 0.42);
@@ -31,7 +32,8 @@ li{
 	width:90%;
 	text-align:left;
 	padding:10px;
-	    margin-left: auto;
+	padding-left:20px;
+	margin-left: auto;
     margin-right: auto;
 
 }
@@ -83,7 +85,7 @@ padding-bottom:10px;}
 .message{
 	display:inline-block;
 	width:45%;
-	margin-left:15px;
+	margin-right:5px;
 	position: relative;
     vertical-align: top;
      margin-bottom: -99999px;
@@ -92,7 +94,7 @@ padding-bottom:10px;}
 .newsfeed{
 	display:inline-block;
 	width:45%;
-	margin-right:15px;
+	margin-left:5px;
 	position: relative;
     vertical-align: top;
 	 margin-bottom: -99999px;
@@ -125,11 +127,11 @@ html {
 }
 .body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: 5;
   width: 100%;
   background-color: #f5f5f5;
   height: auto;

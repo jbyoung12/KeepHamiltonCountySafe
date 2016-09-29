@@ -5,6 +5,10 @@
 	height:80%;
 	background:#00bcce
 }
+.container-fluid .no-col{
+	margin-left:0px;
+	margin-right:0px;
+}
 .newsfeed{
 background-color:rgba(53, 165, 62, 0.42);
 	border-radius: 10px;

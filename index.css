@@ -75,8 +75,10 @@ padding-right: 40px;
 	background-image: url("./index_files/Cincybackground.JPG");
 }}
 @media (min-width:768px){
-.no-col{
+.container-fluid .no-col{
 	    padding-left: 20px;
+margin-left:-20px;
+margin-right:0px;
 }
 .inline{
 display:inline-block;
